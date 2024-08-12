@@ -2,10 +2,9 @@
   "name": "mern-backend-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.ts",
-    "build": "tsc --build ./tsconfig.json && cp package.json ./mehrab-backend/"
+    "start": "node server.js",
   },
   "keywords": [],
   "author": "",
